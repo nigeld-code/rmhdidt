@@ -1,0 +1,19 @@
+$colors: (
+  main: #f5f7f4,
+  secondary: #ffffff,
+  default-text: #2f4053,
+  secondary-text: #11864e,
+  grey-text: #cccccc,
+  error-text: #ee1c1c,
+  default-border: #ccd5df
+);
+
+$content-min-width: 1500px;
+$home-min-width: 750px;
+$dropdown-min-width: 700px;
+$minimum-min-width: 400px;
+
+$default-router-animation-duration: 150ms;
+$default-dropdown-animation-duration: 300ms;
+$default-toggle-animation-duration: 300ms;
+$long-toggle-animation-duration: 350ms;

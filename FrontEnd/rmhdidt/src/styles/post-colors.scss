@@ -1,0 +1,70 @@
+@import "./_variables";
+
+span,
+div {
+  // text color
+  &[data-text-color=black] {
+    color: map-get($colors, default-text);
+  }
+
+  &[data-text-color=white] {
+    color: map-get($colors, main);
+  }
+  
+  &[data-text-color=red] {
+    color: map-get($colors, error-text);
+  }
+
+  &[data-text-color=orange] {
+    color: #ee940d
+  }
+
+  &[data-text-color=yellow] {
+    color: #ffff2e
+  }
+
+  &[data-text-color=green] {
+    color: map-get($colors, secondary-text);
+  }
+
+  &[data-text-color=blue] {
+    color: #3636e9
+  }
+  
+  &[data-text-color=purple] {
+    color: #a300a3
+  }
+
+  // highlight text
+  &[data-text-highlight=black] {
+    background-color: map-get($colors, default-text);
+  }
+
+  &[data-text-highlight=white] {
+    background-color: map-get($colors, main);
+  }
+  
+  &[data-text-highlight=red] {
+    background-color: map-get($colors, error-text);
+  }
+
+  &[data-text-highlight=orange] {
+    background-color: #ee940d
+  }
+
+  &[data-text-highlight=yellow] {
+    background-color: #ffff2e
+  }
+
+  &[data-text-highlight=green] {
+    background-color: map-get($colors, secondary-text);
+  }
+
+  &[data-text-highlight=blue] {
+    background-color: #3636e9
+  }
+  
+  &[data-text-highlight=purple] {
+    background-color: #a300a3
+  }
+}
