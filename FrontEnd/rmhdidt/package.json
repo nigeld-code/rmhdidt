@@ -12,7 +12,7 @@
     "babel-plugin-prismjs": "^2.0.1",
     "core-js": "^3.4.4",
     "highlight.js": "^10.0.1",
-    "prismjs": "^1.20.0",
+    "prismjs": "^1.25.0",
     "tiptap": "^1.27.0",
     "tiptap-extensions": "^1.29.0",
     "vue": "^2.6.10",
